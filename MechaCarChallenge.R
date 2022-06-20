@@ -7,6 +7,7 @@ library(dplyr)
 MechaCar_mpg <- read.csv(file="Resources/MechaCar_mpg.csv")
 
 MechaCar_mpg_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD , MechaCar_mpg)
+MechaCar_mpg_lm
 summary(MechaCar_mpg_lm)
 
 
